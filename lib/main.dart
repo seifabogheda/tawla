@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tawla_training/views/splash/splash_view.dart';
+import 'navigator/named_navigator.dart';
+import 'navigator/named_navigator_impl.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +16,9 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SplashView(),
+      initialRoute: Routes.SPLASH_ROUTE,
+      onGenerateRoute: NamedNavigatorImpl.onGenerateRoute,
+      navigatorKey: NamedNavigatorImpl.navigatorState,
     );
   }
 }

@@ -1,5 +1,6 @@
 class Routes {
   static const SPLASH_ROUTE = "SPLASH_ROUTE";
+  static const LOGIN_ROUTE = "LOGIN_ROUTE";
   static const HOME_ROUTE = "HOME_ROUTE";
   static const NOTIFICATION_ROUTE = "NOTIFICATION_ROUTE";
   static const PLACE_DETAILS_ROUTE = "PLACE_DETAILS_ROUTE";
@@ -10,11 +11,12 @@ class Routes {
   static const MY_RESERVATIONS_ROUTE = "MY_RESERVATIONS_ROUTE";
   static const SEARCH_ROUTE = "SEARCH_ROUTE";
   static const CONTACT_US_ROUTE = "CONTACT_US_ROUTE";
-  static const LOGIN_ROUTE = "LOGIN_ROUTE";
+  static const SIGN_UP_ROUTE = "SIGN_UP_ROUTE";
   static const FORGET_PASSWORD_ROUTE = "FORGET_PASSWORD_ROUTE";
   static const RESERVATION_ROUTE = "RESERVATION_ROUTE";
   static const CONFIRM_RESERVATION_ROUTE = "CONFIRM_RESERVATION_ROUTE";
   static const CHANGE_PASSWORD_ROUTE = "CHANGE_PASSWORD_ROUTE";
+  static const PIN_CODE_ROUTE = "PIN_CODE_ROUTE";
 }
 
 abstract class NamedNavigator {
